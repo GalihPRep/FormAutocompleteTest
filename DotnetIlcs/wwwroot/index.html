@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        form {
+            align-items: center;
+            font-family: Calibri;
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            gap: 10px;
+        }
+        input {
+            max-width: 144px;
+        }
+        textarea{
+            height: 72px;
+            max-width: 144px;
+        }
+        .percent-container{
+            align-items: center;
+            display: flex;
+            height: 22px;
+        }
+        .percent-input {
+            margin-right: 10px;
+            max-width: 24px;
+        }
+    </style>
+</head>
+<body>
+    <form autocomplete="off">
+        <label>Negara</label>
+        <input type="text" id="countryInput" list="countryList" />
+        <datalist id="countryList"></datalist>
+
+        <label>Pelabuhan</label>
+        <input type="text" id="harborInput" />
+        <datalist id="harborList"></datalist>
+
+        <label>Barang</label>
+        <input type="text" id="goodInput" />
+
+        <label></label>
+        <textarea type="text" id="goodOutput"></textarea>
+
+        <label>Harga</label>
+        <input type="text" id="priceInput" />
+
+        <label>Tarif bea masuk</label>
+        <div class="percent-container">
+            <input type="text" class="percent-input" id="tariffPercentageOutput" />
+            <p>%</p>
+        </div>
+
+        <label></label>
+        <input type="text" id="tariffOutput" />
+    </form>
+
+    <script src="js/FetchCountry.js"></script>
+    <script src="js/FetchHarbor.js"></script>
+    <script src="js/FetchGood.js"></script>
+    <script src="js/FetchTariff.js"></script>
+</body>
+</html>

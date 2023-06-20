@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "qh29yi+N3/e0nfFJhmvhzvkDzlbI/fyHQHFQr5p4N1A=",
+  "Source": "DotnetIlcs",
+  "BasePath": "_content/DotnetIlcs",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DotnetIlcs\\wwwroot",
+      "Source": "DotnetIlcs",
+      "ContentRoot": "D:\\@NURD\\@CODING\\C#\\DotnetIlcs\\DotnetIlcs\\wwwroot\\",
+      "BasePath": "_content/DotnetIlcs",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\@NURD\\@CODING\\C#\\DotnetIlcs\\DotnetIlcs\\wwwroot\\index.html",
+      "SourceId": "DotnetIlcs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\@NURD\\@CODING\\C#\\DotnetIlcs\\DotnetIlcs\\wwwroot\\",
+      "BasePath": "_content/DotnetIlcs",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\@NURD\\@CODING\\C#\\DotnetIlcs\\DotnetIlcs\\wwwroot\\js\\FetchCountry.js",
+      "SourceId": "DotnetIlcs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\@NURD\\@CODING\\C#\\DotnetIlcs\\DotnetIlcs\\wwwroot\\",
+      "BasePath": "_content/DotnetIlcs",
+      "RelativePath": "js/FetchCountry.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\FetchCountry.js"
+    }
+  ]
+}
